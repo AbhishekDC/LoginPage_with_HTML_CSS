@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Libre+Baskerville&family=Playfair+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    
+    position: absolute;
+    width: 25%;
+    top: 10%;
+    left: 40%;
+}
+.container h1{
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-left: 20px;
+    color: white;
+    border-bottom: 5px solid yellow;
+    margin-bottom: 20px;
+}
+
+.box{
+   
+    width: 100%;
+    margin: 23px 0px;
+    border-bottom: 2px solid yellow;
+}
+.box input{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    padding: 5px 0px;
+    width: 70%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 23px;
+    padding: 6px;
+    border: 2px solid yellow;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: yellow;
+    background: white;
+}
+
+img{
+    padding: 0px 10px;
+}
